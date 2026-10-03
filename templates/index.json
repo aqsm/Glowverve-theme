@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -8,14 +17,13 @@
         "heading": "Illuminate your skin's true potential.",
         "text": "Serums built on powerful, clearly labelled actives. Brighten, hydrate, and rejuvenate with formulas that fit seamlessly into your routine.",
         "primary_label": "Shop serums",
-        "secondary_label": "Find your serum"
+        "primary_link": "",
+        "secondary_label": "Find your serum",
+        "secondary_link": ""
       }
     },
     "concerns": {
       "type": "concerns",
-      "settings": {
-        "heading": "Shop by concern"
-      },
       "blocks": {
         "concern_1": {
           "type": "concern",
@@ -75,13 +83,17 @@
         "concern_5",
         "concern_6",
         "concern_7"
-      ]
+      ],
+      "settings": {
+        "heading": "Shop by concern"
+      }
     },
     "product-showcase": {
       "type": "product-showcase",
       "settings": {
         "eyebrow": "The formulas",
         "heading": "Find the one your skin is asking for.",
+        "collection": "",
         "limit": 6
       }
     },
@@ -90,6 +102,7 @@
       "settings": {
         "eyebrow": "The serums",
         "heading": "One active. One job. Visible results.",
+        "collection": "",
         "limit": 8,
         "show_view_all": true
       }
@@ -105,13 +118,6 @@
     },
     "brand-story": {
       "type": "brand-story",
-      "settings": {
-        "shape_label": "About our brand",
-        "eyebrow": "Glow Verve",
-        "heading": "Premium skincare, meticulously formulated.",
-        "body": "Glow Verve is a premium skincare brand dedicated to illuminating your skin's true potential. Our serums are formulated with powerful, active ingredients designed to deliver visible results. Whether you're looking to brighten, hydrate, or rejuvenate, Glow Verve offers tailored solutions that fit seamlessly into your skincare routine.",
-        "tone": "surface"
-      },
       "blocks": {
         "pillar_1": {
           "type": "pillar",
@@ -157,17 +163,17 @@
         "pillar_4",
         "pillar_5",
         "pillar_6"
-      ]
+      ],
+      "settings": {
+        "shape_label": "About our brand",
+        "eyebrow": "Glow Verve",
+        "heading": "Premium skincare, meticulously formulated.",
+        "body": "Glow Verve is a premium skincare brand dedicated to illuminating your skin's true potential. Our serums are formulated with powerful, active ingredients designed to deliver visible results. Whether you're looking to brighten, hydrate, or rejuvenate, Glow Verve offers tailored solutions that fit seamlessly into your skincare routine.",
+        "tone": "surface"
+      }
     },
     "regimen": {
       "type": "regimen",
-      "settings": {
-        "eyebrow": "Your routine",
-        "heading": "Four steps to a considered glow.",
-        "body": "Apply serums from thinnest to thickest texture, after cleansing and toning and before your moisturizer.",
-        "show_pairing": true,
-        "tone": "default"
-      },
       "blocks": {
         "step_1": {
           "type": "step",
@@ -203,19 +209,17 @@
         "step_2",
         "step_3",
         "step_4"
-      ]
-    },
-    "recently-viewed": {
-      "type": "recently-viewed",
+      ],
       "settings": {
-        "heading": "Recently viewed"
+        "eyebrow": "Your routine",
+        "heading": "Four steps to a considered glow.",
+        "body": "Apply serums from thinnest to thickest texture, after cleansing and toning and before your moisturizer.",
+        "show_pairing": true,
+        "tone": "default"
       }
     },
     "promises": {
       "type": "promises",
-      "settings": {
-        "tone": "inverse"
-      },
       "blocks": {
         "promise_1": {
           "type": "promise",
@@ -243,7 +247,10 @@
         "promise_1",
         "promise_2",
         "promise_3"
-      ]
+      ],
+      "settings": {
+        "tone": "inverse"
+      }
     }
   },
   "order": [
@@ -254,7 +261,6 @@
     "skin-lab",
     "brand-story",
     "regimen",
-    "recently-viewed",
     "promises"
   ]
 }
